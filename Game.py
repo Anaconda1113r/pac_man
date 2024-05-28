@@ -16,13 +16,13 @@ color = 'blue'
 PI = math.pi
 player_images = []
 for i in range(1, 5):
-    player_images.append(pygame.transform.scale(pygame.image.load('images/изображение игрока/yellow.jpeg'), (45, 45)))
-blinky_img = pygame.transform.scale(pygame.image.load('images/другие персонажи/red.png'), (45, 45))
-pinky_img = pygame.transform.scale(pygame.image.load('images/другие персонажи/pink.png'), (45, 45))
-inky_img = pygame.transform.scale(pygame.image.load('images/другие персонажи/blue.png'), (45, 45))
-clyde_img = pygame.transform.scale(pygame.image.load('images/другие персонажи/orange.png'), (45, 45))
-spooked_img = pygame.transform.scale(pygame.image.load('images/другие персонажи/dead.png'), (45, 45))
-dead_img = pygame.transform.scale(pygame.image.load('images/другие персонажи/white.png'), (45, 45))
+    player_images.append(pygame.transform.scale(pygame.image.load('images/yellow.jpeg'), (45, 45)))
+    blinky_img = pygame.transform.scale(pygame.image.load('images/red.png'), (45, 45))
+    pinky_img = pygame.transform.scale(pygame.image.load('images/pink.png'), (45, 45))
+    inky_img = pygame.transform.scale(pygame.image.load('images/blue.png'), (45, 45))
+    clyde_img = pygame.transform.scale(pygame.image.load('images/orange.png'), (45, 45))
+    spooked_img = pygame.transform.scale(pygame.image.load('images/dead.png'), (45, 45))
+    dead_img = pygame.transform.scale(pygame.image.load('images/white.png'), (45, 45))
 player_x = 450
 player_y = 663
 direction = 0
